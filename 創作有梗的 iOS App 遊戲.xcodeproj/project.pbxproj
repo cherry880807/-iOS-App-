@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55222AF122854EB500BBFF6B /* snowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55222AF022854EB500BBFF6B /* snowViewController.swift */; };
+		55222AF32285651100BBFF6B /* gradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55222AF22285651100BBFF6B /* gradeViewController.swift */; };
+		552470262283FD01002B854D /* PintuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552470252283FD01002B854D /* PintuViewController.swift */; };
 		555B11D522828EB1008B02DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B11D422828EB1008B02DD /* AppDelegate.swift */; };
 		555B11D722828EB2008B02DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B11D622828EB2008B02DD /* ViewController.swift */; };
 		555B11DA22828EB2008B02DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555B11D822828EB2008B02DD /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55222AF022854EB500BBFF6B /* snowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snowViewController.swift; sourceTree = "<group>"; };
+		55222AF22285651100BBFF6B /* gradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradeViewController.swift; sourceTree = "<group>"; };
+		552470252283FD01002B854D /* PintuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintuViewController.swift; sourceTree = "<group>"; };
 		555B11D122828EB1008B02DD /* 創作有梗的 iOS App 遊戲.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "創作有梗的 iOS App 遊戲.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		555B11D422828EB1008B02DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		555B11D622828EB2008B02DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,9 +60,12 @@
 		555B11D322828EB1008B02DD /* 創作有梗的 iOS App 遊戲 */ = {
 			isa = PBXGroup;
 			children = (
+				55222AF22285651100BBFF6B /* gradeViewController.swift */,
 				555B11D422828EB1008B02DD /* AppDelegate.swift */,
 				555B11D622828EB2008B02DD /* ViewController.swift */,
 				555B11D822828EB2008B02DD /* Main.storyboard */,
+				55222AF022854EB500BBFF6B /* snowViewController.swift */,
+				552470252283FD01002B854D /* PintuViewController.swift */,
 				555B11DB22828EB3008B02DD /* Assets.xcassets */,
 				555B11DD22828EB3008B02DD /* LaunchScreen.storyboard */,
 				555B11E022828EB3008B02DD /* Info.plist */,
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55222AF32285651100BBFF6B /* gradeViewController.swift in Sources */,
+				552470262283FD01002B854D /* PintuViewController.swift in Sources */,
+				55222AF122854EB500BBFF6B /* snowViewController.swift in Sources */,
 				555B11D722828EB2008B02DD /* ViewController.swift in Sources */,
 				555B11D522828EB1008B02DD /* AppDelegate.swift in Sources */,
 			);
